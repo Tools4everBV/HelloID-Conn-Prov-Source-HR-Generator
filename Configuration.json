@@ -1,0 +1,112 @@
+[
+    {
+      "key": "nrOfPersons",
+      "type": "input",
+      "defaultValue": 100,
+      "templateOptions": {
+        "label": "Number of persons",
+        "placeholder": "Enter the number of persons",
+        "required": true
+      }
+    },
+    {
+      "key": "nrOfContracts",
+      "type": "input",
+      "defaultValue": 5,
+      "templateOptions": {
+        "label": "Number of contracts",
+        "placeholder": "Enter the number of contracts per person",
+        "required": true
+      }
+    },
+    {
+      "key": "percentageOfInactivePersons",
+      "type": "input",
+      "defaultValue": 20,
+      "templateOptions": {
+        "label": "Percentage of inactive persons",
+        "placeholder": "Enter the percentage of inactive persons",
+        "required": true
+      }
+    },
+    {
+      "key": "convention",
+      "type": "select",
+      "defaultValue": "B",
+      "templateOptions": {
+        "label": "Naming convention",
+        "placeholder": "Please select a naming convention",
+        "options": [
+          {
+            "value": "P",
+            "label": "Partner name"
+          },
+          {
+            "value": "B",
+            "label": "Birth name"
+          },
+          {
+            "value": "PB",
+            "label": "Partner name - Birth name"
+          },
+          {
+            "value": "BP",
+            "label": "Birth name - Partner name"
+          }
+        ]
+      }
+    },
+    {
+      "key": "contractCalculationType",
+      "type": "radio",
+      "defaultValue": "Employments",
+      "templateOptions": {
+        "label": "Contract calculation type",
+        "required": true,
+        "options": [
+          {
+            "value": "Employments",
+            "label": "Employments"
+          },
+          {
+            "value": "Positions",
+            "label": "Positions"
+          },
+          {
+            "value": "Employments & Positions",
+            "label": "EmploymentsAndPositions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "nrOfDepartments",
+      "type": "input",
+      "defaultValue": 25,
+      "templateOptions": {
+        "label": "Number of departments",
+        "placeholder": "Enter the number of departments",
+        "required": true
+      }
+    },
+    {
+      "key": "percentageOfDepartmentsWithParentDepartments",
+      "type": "input",
+      "defaultValue": 50,
+      "templateOptions": {
+        "label": "Number of departments",
+        "placeholder": "Enter the number of departments",
+        "required": true
+      }
+    },
+    {
+      "key": "seed",
+      "type": "input",
+      "defaultValue": 1,
+      "templateOptions": {
+        "label": "Generation seed",
+        "placeholder": "Enter the seed for the random generation",
+        "required": true
+      }
+    }
+  ]
