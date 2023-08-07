@@ -8,7 +8,7 @@ Template repository for HelloID Provisioning Target Connector
 
 | :warning: Warning                                                                         |
 | :---------------------------------------------------------------------------------------- |
-| This is a demo repository. |
+| This is a demo repository that creates random person data. |
 
 | :information_source: Information                                                         |
 | :--------------------------------------------------------------------------------------- |
@@ -31,17 +31,29 @@ Template repository for HelloID Provisioning Target Connector
   - [Getting help](#getting-help)
   - [HelloID Docs](#helloid-docs)
 
-## Requirements
-
 ## Introduction
 
+This system automatically generate persons using HR generator library.
 
 | Action | Action(s) Performed | Comment |
 | ------ | ------------------- | ------- |
 | person.ps1                | create persons                                             |    |
-| department.ps1            | create department                                             |    |
+| department.ps1            | create department                                          |    |
 
 ## Getting Started
+
+HR generator source systems are configured similarly to standard Source systems, but in place of a Persons import script and Departments import script, they have the following settings, located on the Configuration tab.
+
+| Setting | Description | Mandatory |
+| ------- | ----------- | --------- |
+| Number Of Persons To Generate                | The number of employees generated for the system's raw personnel data, which become Persons during the import process.                                             | Yes   |
+| Seed            | An integer that determines the RNG seed used to generate the example data. Typically only needs to be changed if you have multiple HR generator systems, and you want them to have different data. | Yes   |
+| Number Of Contracts To Generate Per Person            | The number of Contracts to generate for each person. | Yes   |
+| Display Name Convention            | Change how persons' Display names are formatted. | Yes   |
+| Contract Calculation            |  | Yes   |
+| Percentage Of Persons With Inactive Contracts            | Percentage of persons with only Inactive contracts. | Yes   |
+| Number Of Departments To Generate            | The number of Departments to generate. | Yes   |
+| Percentage Of Departments With A Parent Department            | The percentage of Departments with a ParentExternalId defined. See Departments import script. | Yes   |
 
 ## Remarks
 
