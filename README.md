@@ -1,10 +1,5 @@
 # HelloID-Conn-Prov-HR-Generator
 
-<a href="https://github.com/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator/network/members"><img src="https://img.shields.io/github/forks/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator" alt="Forks Badge"/></a>
-<a href="https://github.com/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator/pulls"><img src="https://img.shields.io/github/issues-pr/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator/issues"><img src="https://img.shields.io/github/issues/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator" alt="Issues Badge"/></a>
-<a href="https://github.com/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator?color=2b9348"></a>
-
 | :warning: Warning                                                                         |
 | :---------------------------------------------------------------------------------------- |
 | This is a demo repository that creates random person data. |
@@ -31,11 +26,7 @@
 ## Introduction
 
 This system automatically generate persons using HR generator library.
-
-| Action | Action(s) Performed | Comment |
-| ------ | ------------------- | ------- |
-| person.ps1                | create persons                                             |    |
-| department.ps1            | create department                                          |    |
+The data is randomly generated, based on a seed for reproducability.
 
 ## Getting Started
 
