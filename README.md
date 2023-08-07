@@ -24,10 +24,8 @@ Template repository for HelloID Provisioning Target Connector
 - [HelloID-Conn-Prov-Target-Template](#helloid-conn-prov-HR-Generator)
   - [Versioning](#versioning)
   - [Table of Contents](#table-of-contents)
-  - [Requirements](#requirements)
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
-  - [Remarks](#remarks)
   - [Getting help](#getting-help)
   - [HelloID Docs](#helloid-docs)
 
@@ -54,8 +52,6 @@ HR generator source systems are configured similarly to standard Source systems,
 | Percentage Of Persons With Inactive Contracts            | Percentage of persons with only Inactive contracts. | Yes   |
 | Number Of Departments To Generate            | The number of Departments to generate. | Yes   |
 | Percentage Of Departments With A Parent Department            | The percentage of Departments with a ParentExternalId defined. See Departments import script. | Yes   |
-
-## Remarks
 
 ## Getting help
 > _For more information on how to configure a HelloID PowerShell connector, please refer to our [documentation](https://docs.helloid.com/en/provisioning/source-systems.html) pages_
