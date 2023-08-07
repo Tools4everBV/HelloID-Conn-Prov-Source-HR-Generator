@@ -1,5 +1,4 @@
 # HelloID-Conn-Prov-HR-Generator
-Template repository for HelloID Provisioning Target Connector
 
 <a href="https://github.com/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator/network/members"><img src="https://img.shields.io/github/forks/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator" alt="Forks Badge"/></a>
 <a href="https://github.com/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator/pulls"><img src="https://img.shields.io/github/issues-pr/Tools4everBV/HelloID-Conn-Prov-Source-HR-Generator" alt="Pull Requests Badge"/></a>
