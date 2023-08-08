@@ -6,7 +6,7 @@
 
 | :information_source: Information                                                         |
 | :--------------------------------------------------------------------------------------- |
-|   This system automatically generate persons using HR generator library |
+|   This system automatically generate persons using an HR generator library |
 
 ## Versioning
 | Version | Description     |
@@ -38,7 +38,7 @@ HR generator source systems are configured similarly to standard Source systems,
 | Seed            | An integer that determines the RNG seed used to generate the example data. Typically only needs to be changed if you have multiple HR generator systems, and you want them to have different data. | Yes   |
 | Number Of Contracts To Generate Per Person            | The number of Contracts to generate for each person. | Yes   |
 | Display Name Convention            | Change how persons' Display names are formatted. | Yes   |
-| Contract Calculation            |  | Yes   |
+| Contract Calculation            | Choose wether contract dates are based on employments or positions. | Yes   |
 | Percentage Of Persons With Inactive Contracts            | Percentage of persons with only Inactive contracts. | Yes   |
 | Number Of Departments To Generate            | The number of Departments to generate. | Yes   |
 | Percentage Of Departments With A Parent Department            | The percentage of Departments with a ParentExternalId defined. See Departments import script. | Yes   |
