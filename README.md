@@ -31,7 +31,7 @@ The data is randomly generated, based on a seed for reproducability.
 ## Getting Started
 
 HR generator source systems are configured similarly to standard Source systems, but in place of a Persons import script and Departments import script, they have the following settings, located on the Configuration tab.
-The settings have to be saved by clicking the apply button at least once, even if the defaults are used.
+The settings have to be saved by clicking the apply button, even if the defaults are used.
 
 | Setting | Description | Mandatory |
 | ------- | ----------- | --------- |
