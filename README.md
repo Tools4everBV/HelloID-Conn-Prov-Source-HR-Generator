@@ -6,7 +6,7 @@
 
 | :information_source: Information                                                         |
 | :--------------------------------------------------------------------------------------- |
-|   This system automatically generate persons using an HR generator library |
+|   This system automatically generates persons using an HR generator library |
 
 ## Versioning
 | Version | Description     |
@@ -25,7 +25,7 @@
 
 ## Introduction
 
-This system automatically generate persons using an HR generator library.
+This system automatically generates persons using an HR generator library.
 The data is randomly generated, based on a seed for reproducability.
 
 ## Getting Started
