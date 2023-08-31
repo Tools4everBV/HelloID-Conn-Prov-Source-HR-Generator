@@ -32,11 +32,15 @@
     {
       "key": "convention",
       "type": "select",
-      "defaultValue": "B",
+      "defaultValue": "Random",
       "templateOptions": {
         "label": "Naming convention",
         "placeholder": "Please select a naming convention",
         "options": [
+          {
+            "value": "Random",
+            "label": "Random"
+          },
           {
             "value": "P",
             "label": "Partner name"
@@ -57,29 +61,6 @@
       }
     },
     {
-      "key": "contractCalculationType",
-      "type": "radio",
-      "defaultValue": "Employments",
-      "templateOptions": {
-        "label": "Contract calculation type",
-        "required": true,
-        "options": [
-          {
-            "value": "Employments",
-            "label": "Employments"
-          },
-          {
-            "value": "Positions",
-            "label": "Positions"
-          },
-          {
-            "value": "EmploymentsAndPositions",
-            "label": "Employments & Positions"
-          }
-        ]
-      }
-    },
-    {
       "key": "nrOfDepartments",
       "type": "input",
       "defaultValue": 25,
@@ -94,8 +75,8 @@
       "type": "input",
       "defaultValue": 50,
       "templateOptions": {
-        "label": "Number of departments",
-        "placeholder": "Enter the number of departments",
+        "label": "Percentage of departments with parent departments",
+        "placeholder": "Enter the percentage of departments with a parent department",
         "required": true
       }
     },

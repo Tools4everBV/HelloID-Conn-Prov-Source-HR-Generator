@@ -10,7 +10,6 @@ $departments = HrGenerator `
             -PercentageDepartmentsWithParentDepartments $c.percentageOfDepartmentsWithParentDepartments `
             -PercentageInactivePersons $c.percentageOfInactivePersons `
             -Convention $c.convention `
-            -ContractCalculationType $c.contractCalculationType `
             -Seed $c.seed;
 
 Write-Verbose -Verbose "Sending departments to HelloID";
