@@ -75,7 +75,7 @@
       "type": "input",
       "defaultValue": 50,
       "templateOptions": {
-        "label": "Percentage of departments with parent departments",
+        "label": "Percentage of departments with a parent department",
         "placeholder": "Enter the percentage of departments with a parent department",
         "required": true
       }

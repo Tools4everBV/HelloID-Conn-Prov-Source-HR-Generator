@@ -18,4 +18,3 @@ foreach ($department in $departments)
     Write-Output $department | ConvertTo-Json -Depth 10
 }
 Write-Verbose -Verbose "Department import completed";
-Write-Verbose -Verbose "Person import completed";
