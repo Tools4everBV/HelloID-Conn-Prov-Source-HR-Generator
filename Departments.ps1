@@ -10,7 +10,6 @@ $departments = HrGenerator `
             -PercentageDepartmentsWithParentDepartments $c.percentageOfDepartmentsWithParentDepartments `
             -PercentageInactivePersons $c.percentageOfInactivePersons `
             -Convention $c.convention `
-            -ContractCalculationType $c.contractCalculationType `
             -Seed $c.seed;
 
 Write-Verbose -Verbose "Sending departments to HelloID";
@@ -19,4 +18,3 @@ foreach ($department in $departments)
     Write-Output $department | ConvertTo-Json -Depth 10
 }
 Write-Verbose -Verbose "Department import completed";
-Write-Verbose -Verbose "Person import completed";
