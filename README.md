@@ -8,6 +8,10 @@
 | :--------------------------------------------------------------------------------------- |
 |   This system automatically generates persons using an HR generator library |
 
+| :information_source: Information                                                         |
+| :--------------------------------------------------------------------------------------- |
+|   Note that this demo connector can only be executed using cloud PowerShell |
+
 ## Versioning
 | Version | Description     |
 | ------- | --------------- |
