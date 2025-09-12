@@ -15,6 +15,7 @@
 ## Versioning
 | Version | Description     |
 | ------- | --------------- |
+| v2.0.1  | Changed the default seed to **2** to generate more workplace-friendly names |
 | v2.0.0  | Use the new Hr Generator module |
 | v1.0.0   | Initial release (deprecated) |
 

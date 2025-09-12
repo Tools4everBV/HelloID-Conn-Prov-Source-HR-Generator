@@ -83,7 +83,7 @@
     {
       "key": "seed",
       "type": "input",
-      "defaultValue": 1,
+      "defaultValue": 2,
       "templateOptions": {
         "label": "Generation seed",
         "placeholder": "Enter the seed for the random generation",
